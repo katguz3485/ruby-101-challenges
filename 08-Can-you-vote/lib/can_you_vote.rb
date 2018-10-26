@@ -1,5 +1,6 @@
 def can_you_vote?(age)
   # TODO: return true/false depending on the *age* given
+  age > 16 ? true : false
 
 end
 

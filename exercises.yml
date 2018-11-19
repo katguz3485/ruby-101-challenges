@@ -23,5 +23,5 @@
   file_name: 'can_you_vote.rb'
   group: 'Conditionals'
 - path: '09-Find-max'
-  file_name: 'max.rb'
+  file_name: 'your_order.rb'
   group: 'Conditionals'

@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cebcde4b-eefd-447f-bc25-798aa8159bd5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/01-Full-name/lib/full_name.rb" beforeDir="false" afterPath="$PROJECT_DIR$/01-Full-name/lib/full_name.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-Age-next-year/lib/age_next_year.rb" beforeDir="false" afterPath="$PROJECT_DIR$/02-Age-next-year/lib/age_next_year.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-Palindrome-word/lib/palindrome.rb" beforeDir="false" afterPath="$PROJECT_DIR$/03-Palindrome-word/lib/palindrome.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-Merge-and-sort-array/lib/merge_and_sort_array.rb" beforeDir="false" afterPath="$PROJECT_DIR$/04-Merge-and-sort-array/lib/merge_and_sort_array.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-Word-counter/lib/word_counter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/05-Word-counter/lib/word_counter.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-Playlist-array/lib/add_song_to_playlist.rb" beforeDir="false" afterPath="$PROJECT_DIR$/06-Playlist-array/lib/add_song_to_playlist.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-odd-or-even/lib/odd_or_even.rb" beforeDir="false" afterPath="$PROJECT_DIR$/07-odd-or-even/lib/odd_or_even.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08-Can-you-vote/lib/can_you_vote.rb" beforeDir="false" afterPath="$PROJECT_DIR$/08-Can-you-vote/lib/can_you_vote.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-Find-max/lib/max.rb" beforeDir="false" afterPath="$PROJECT_DIR$/09-Find-max/lib/max.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-crush_game/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-crush_game/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-crush_game/lib/crush_game.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-crush_game/spec/crush_game_spec.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-your_order/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-your_order/Rakefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-your_order/lib/your_order.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-your_order/spec/your_order_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ruby-101-challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ruby-101-challenges.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises.yml" beforeDir="false" afterPath="$PROJECT_DIR$/exercises.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,107 +21,92 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@word_counter.rcov" NAME="word_counter Coverage Results" MODIFIED="1540535455056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-Word-counter/lib" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@age_next_year.rcov" NAME="age_next_year Coverage Results" MODIFIED="1540497118983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-Age-next-year/lib" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@word_counter.rcov" NAME="word_counter Coverage Results" MODIFIED="1542134412274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-Word-counter/lib" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@odd_or_even.rcov" NAME="odd_or_even Coverage Results" MODIFIED="1540536000100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-odd-or-even/lib" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@add_song_to_playlist.rcov" NAME="add_song_to_playlist Coverage Results" MODIFIED="1540535813550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Playlist-array/lib" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__can_you_vote_spec___ruby_101_challenges.rcov" NAME="Run spec 'can_you_vote_spec': ruby-101-challenges Coverage Results" MODIFIED="1540536102567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-Can-you-vote" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@_can_you_vote__returns_false_if_the_age_is_lower_than_18__ruby_101_challenges.rcov" NAME="#can_you_vote? returns false if the age is lower than 18: ruby-101-challenges Coverage Results" MODIFIED="1540536293287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-Can-you-vote" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__can_you_vote_spec___ruby_101_challenges.rcov" NAME="Run spec 'can_you_vote_spec': ruby-101-challenges Coverage Results" MODIFIED="1542556714876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-Can-you-vote" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@_max_returns_the_correct_highest_number_for_8_and_4__ruby_101_challenges.rcov" NAME="#max returns the correct highest number for 8 and 4: ruby-101-challenges Coverage Results" MODIFIED="1540536395091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-Find-max" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__odd_or_even_spec___ruby_101_challenges.rcov" NAME="Run spec 'odd_or_even_spec': ruby-101-challenges Coverage Results" MODIFIED="1540536007098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-odd-or-even" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@_word_counter_returns_the_correct_number_of_words_for__Hello_word____ruby_101_challenges.rcov" NAME="#word_counter returns the correct number of words for 'Hello word!': ruby-101-challenges Coverage Results" MODIFIED="1540535464810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/05-Word-counter" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__merge_and_sort_array_spec___ruby_101_challenges.rcov" NAME="Run spec 'merge_and_sort_array_spec': ruby-101-challenges Coverage Results" MODIFIED="1540533284241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Merge-and-sort-array" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__max_spec___ruby_101_challenges.rcov" NAME="Run spec 'max_spec': ruby-101-challenges Coverage Results" MODIFIED="1540536584695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-Find-max" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@max.rcov" NAME="max Coverage Results" MODIFIED="1540536579202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-Find-max/lib" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@max.rcov" NAME="max Coverage Results" MODIFIED="1540536628598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-Find-max/lib" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@can_you_vote.rcov" NAME="can_you_vote Coverage Results" MODIFIED="1542136230937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-Can-you-vote/lib" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__add_song_to_playlist_spec___ruby_101_challenges.rcov" NAME="Run spec 'add_song_to_playlist_spec': ruby-101-challenges Coverage Results" MODIFIED="1540535821942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Playlist-array" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__crush_game_spec___ruby_101_challenges.rcov" NAME="Run spec 'crush_game_spec': ruby-101-challenges Coverage Results" MODIFIED="1542556752026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-crush_game" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@age_next_year.rcov" NAME="age_next_year Coverage Results" MODIFIED="1540497118983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-Age-next-year/lib" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@your_order.rcov" NAME="your_order Coverage Results" MODIFIED="1542647734770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11-your_order/lib" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@_crush_game__ruby_101_challenges.rcov" NAME="#crush_game: ruby-101-challenges Coverage Results" MODIFIED="1542556596215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-crush_game" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@_can_you_vote__returns_false_if_the_age_is_lower_than_18__ruby_101_challenges.rcov" NAME="#can_you_vote? returns false if the age is lower than 18: ruby-101-challenges Coverage Results" MODIFIED="1540536293287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/08-Can-you-vote" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__odd_or_even_spec___ruby_101_challenges.rcov" NAME="Run spec 'odd_or_even_spec': ruby-101-challenges Coverage Results" MODIFIED="1540536007098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/07-odd-or-even" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__max_spec___ruby_101_challenges.rcov" NAME="Run spec 'max_spec': ruby-101-challenges Coverage Results" MODIFIED="1540536632857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09-Find-max" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__age_next_year_spec___ruby_101_challenges.rcov" NAME="Run spec 'age_next_year_spec': ruby-101-challenges Coverage Results" MODIFIED="1540497359405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-Age-next-year" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__your_order_spec___ruby_101_challenges.rcov" NAME="Run spec 'your_order_spec': ruby-101-challenges Coverage Results" MODIFIED="1542647238464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/11-your_order" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@crush_game__1_.rcov" NAME="crush_game (1) Coverage Results" MODIFIED="1542650675736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/10-crush_game/lib" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@palindrome.rcov" NAME="palindrome Coverage Results" MODIFIED="1540500189010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-Palindrome-word/lib" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@merge_and_sort_array.rcov" NAME="merge_and_sort_array Coverage Results" MODIFIED="1540501323753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/04-Merge-and-sort-array/lib" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@full_name.rcov" NAME="full_name Coverage Results" MODIFIED="1540496623767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01-Full-name/lib" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__palindrome_spec___ruby_101_challenges.rcov" NAME="Run spec 'palindrome_spec': ruby-101-challenges Coverage Results" MODIFIED="1540500218130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-Palindrome-word" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__full_name_spec___ruby_101_challenges.rcov" NAME="Run spec 'full_name_spec': ruby-101-challenges Coverage Results" MODIFIED="1540496583946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01-Full-name" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@Run_spec__add_song_to_playlist_spec___ruby_101_challenges.rcov" NAME="Run spec 'add_song_to_playlist_spec': ruby-101-challenges Coverage Results" MODIFIED="1540535821942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/06-Playlist-array" MODULE_NAME="ruby-101-challenges" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1753548709">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.100" value="1" />
+          <entry key="project.open.time.117" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Rakefile" value="2" />
-          <entry key="md" value="3" />
-          <entry key="rb" value="18" />
+          <entry key="Rakefile" value="3" />
+          <entry key="md" value="4" />
+          <entry key="rb" value="24" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="3" />
-          <entry key="Ruby" value="20" />
+          <entry key="Markdown" value="4" />
+          <entry key="Ruby" value="27" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="rb" value="650" />
+          <entry key="md" value="3" />
+          <entry key="rb" value="3163" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ruby" value="650" />
+          <entry key="Markdown" value="3" />
+          <entry key="Ruby" value="3163" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.actions.runAnything" />
+      <usages-collector id="statistics.actions.runAnything">
+        <counts>
+          <entry key="RunAnythingMainListModel: RunAnything - execution - rvm use" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-Playlist-array/lib/add_song_to_playlist.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-odd-or-even/lib/odd_or_even.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/07-odd-or-even/spec/odd_or_even_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08-Can-you-vote/lib/can_you_vote.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/09-Find-max/lib/max.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -128,21 +115,72 @@
         <entry file="file://$PROJECT_DIR$/09-Find-max/spec/max_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10-crush_game/lib/crush_game.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08-Can-you-vote/Rakefile">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/11-your_order/lib/your_order.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/08-Can-you-vote/README.md">
+        <entry file="file://$PROJECT_DIR$/11-your_order/spec/your_order_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-Word-counter/lib/word_counter.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04-Merge-and-sort-array/lib/merge_and_sort_array.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-crush_game/spec/crush_game_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/10-crush_game/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="90">
+                <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="10" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -151,17 +189,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/08-Can-you-vote/spec/can_you_vote_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/06-Playlist-array/spec/add_song_to_playlist_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -178,11 +207,17 @@
         <option value="$PROJECT_DIR$/02-Age-next-year/lib/age_next_year.rb" />
         <option value="$PROJECT_DIR$/03-Palindrome-word/lib/palindrome.rb" />
         <option value="$PROJECT_DIR$/04-Merge-and-sort-array/lib/merge_and_sort_array.rb" />
-        <option value="$PROJECT_DIR$/05-Word-counter/lib/word_counter.rb" />
         <option value="$PROJECT_DIR$/06-Playlist-array/lib/add_song_to_playlist.rb" />
         <option value="$PROJECT_DIR$/07-odd-or-even/lib/odd_or_even.rb" />
         <option value="$PROJECT_DIR$/08-Can-you-vote/lib/can_you_vote.rb" />
         <option value="$PROJECT_DIR$/09-Find-max/lib/max.rb" />
+        <option value="$PROJECT_DIR$/10-crush_game/README.md" />
+        <option value="$PROJECT_DIR$/05-Word-counter/lib/word_counter.rb" />
+        <option value="$PROJECT_DIR$/10-crush_game/spec/crush_game_spec.rb" />
+        <option value="$PROJECT_DIR$/11-your_order/lib/crush_game.rb" />
+        <option value="$PROJECT_DIR$/11-your_order/spec/your_order_spec.rb" />
+        <option value="$PROJECT_DIR$/11-your_order/lib/your_order.rb" />
+        <option value="$PROJECT_DIR$/10-crush_game/lib/crush_game.rb" />
       </list>
     </option>
   </component>
@@ -192,18 +227,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="27" />
-    <option name="width" value="1299" />
-    <option name="height" value="729" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="30" />
+    <option name="y" value="136" />
+    <option name="width" value="1121" />
+    <option name="height" value="555" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,30 +248,37 @@
             <path>
               <item name="ruby-101-challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="ruby-101-challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="09-Find-max" type="462c0819:PsiDirectoryNode" />
+              <item name="10-crush_game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ruby-101-challenges" type="b2602c69:ProjectViewProjectNode" />
               <item name="ruby-101-challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="09-Find-max" type="462c0819:PsiDirectoryNode" />
+              <item name="10-crush_game" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ruby-101-challenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ruby-101-challenges" type="462c0819:PsiDirectoryNode" />
-              <item name="09-Find-max" type="462c0819:PsiDirectoryNode" />
-              <item name="spec" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/10-crush_game" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="b">
+      <command value="rvm use ruby-2.5.1" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Run spec 'max_spec': ruby-101-challenges">
+  <component name="RunManager" selected="Ruby.crush_game (1)">
     <configuration name="Run spec 'can_you_vote_spec': ruby-101-challenges" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="ruby-101-challenges" />
@@ -273,7 +314,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/08-Can-you-vote/spec/can_you_vote_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
@@ -285,11 +326,11 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Run spec 'max_spec': ruby-101-challenges" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Run spec 'crush_game_spec': ruby-101-challenges" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="ruby-101-challenges" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/09-Find-max" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/10-crush_game" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -304,9 +345,9 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/09-Find-max/spec/max_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/10-crush_game/spec/crush_game_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
@@ -318,11 +359,11 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="#can_you_vote? returns false if the age is lower than 18: ruby-101-challenges" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Run spec 'your_order_spec': ruby-101-challenges" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="ruby-101-challenges" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/08-Can-you-vote" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/11-your_order" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
@@ -337,10 +378,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/08-Can-you-vote/spec/can_you_vote_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/11-your_order/spec/your_order_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="#can_you_vote? returns false if the age is lower than 18" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="'**/*_spec.rb'" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -351,43 +392,28 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="#max returns the correct highest number for 8 and 4: ruby-101-challenges" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="ruby-101-challenges" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/09-Find-max" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/09-Find-max/spec/max_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="#max returns the correct highest number for 8 and 4" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="max" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="crush_game (1)" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-101-challenges" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/09-Find-max/lib" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/10-crush_game/lib" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="true" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-2.5.1" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/10-crush_game/lib/crush_game.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="your_order" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="ruby-101-challenges" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/11-your_order/lib" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -398,23 +424,23 @@
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/09-Find-max/lib/max.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/11-your_order/lib/your_order.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Ruby.crush_game (1)" />
+      <item itemvalue="RSpec.Run spec 'crush_game_spec': ruby-101-challenges" />
       <item itemvalue="RSpec.Run spec 'can_you_vote_spec': ruby-101-challenges" />
-      <item itemvalue="RSpec.#can_you_vote? returns false if the age is lower than 18: ruby-101-challenges" />
-      <item itemvalue="RSpec.Run spec 'max_spec': ruby-101-challenges" />
-      <item itemvalue="RSpec.#max returns the correct highest number for 8 and 4: ruby-101-challenges" />
-      <item itemvalue="Ruby.max" />
+      <item itemvalue="RSpec.Run spec 'your_order_spec': ruby-101-challenges" />
+      <item itemvalue="Ruby.your_order" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.Run spec 'max_spec': ruby-101-challenges" />
-        <item itemvalue="Ruby.max" />
-        <item itemvalue="RSpec.#max returns the correct highest number for 8 and 4: ruby-101-challenges" />
-        <item itemvalue="RSpec.#can_you_vote? returns false if the age is lower than 18: ruby-101-challenges" />
+        <item itemvalue="Ruby.crush_game (1)" />
+        <item itemvalue="Ruby.your_order" />
+        <item itemvalue="RSpec.Run spec 'your_order_spec': ruby-101-challenges" />
+        <item itemvalue="RSpec.Run spec 'crush_game_spec': ruby-101-challenges" />
         <item itemvalue="RSpec.Run spec 'can_you_vote_spec': ruby-101-challenges" />
       </list>
     </recent_temporary>
@@ -430,68 +456,91 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540496403903</updated>
-      <workItem from="1540496405172" duration="7519000" />
+      <workItem from="1540496405172" duration="8206000" />
+      <workItem from="1540550351994" duration="495000" />
+      <workItem from="1542100297022" duration="11755000" />
+      <workItem from="1542133371910" duration="508000" />
+      <workItem from="1542133981590" duration="576000" />
+      <workItem from="1542135123537" duration="2315000" />
+      <workItem from="1542138196118" duration="129000" />
+      <workItem from="1542139815970" duration="61000" />
+      <workItem from="1542139909072" duration="793000" />
+      <workItem from="1542141619587" duration="29000" />
+      <workItem from="1542141675972" duration="51000" />
+      <workItem from="1542141780783" duration="932000" />
+      <workItem from="1542143209004" duration="105000" />
+      <workItem from="1542149513343" duration="4660000" />
+      <workItem from="1542551602477" duration="6128000" />
+      <workItem from="1542645507605" duration="5117000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="#word_counter_returns_the_correct_number_of_words_for_'Hello_word!'__ruby-101-challenges - 2018.10.26 at 08h 31m 05s.xml">
-      <configuration name="#word_counter returns the correct number of words for 'Hello word!': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="#crush_game__ruby-101-challenges - 2018.11.18 at 16h 56m 39s.xml">
+      <configuration name="#crush_game: ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_spec_'add_song_to_playlist_spec'__ruby-101-challenges - 2018.10.26 at 08h 32m 06s.xml">
-      <configuration name="Run spec 'add_song_to_playlist_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'crush_game_spec'__ruby-101-challenges - 2018.11.18 at 16h 56m 54s.xml">
+      <configuration name="Run spec 'crush_game_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_spec_'add_song_to_playlist_spec'__ruby-101-challenges - 2018.10.26 at 08h 34m 15s.xml">
-      <configuration name="Run spec 'add_song_to_playlist_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'crush_game_spec'__ruby-101-challenges - 2018.11.18 at 16h 57m 08s.xml">
+      <configuration name="Run spec 'crush_game_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_spec_'add_song_to_playlist_spec'__ruby-101-challenges - 2018.10.26 at 08h 37m 03s.xml">
-      <configuration name="Run spec 'add_song_to_playlist_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'crush_game_spec'__ruby-101-challenges - 2018.11.18 at 16h 58m 21s.xml">
+      <configuration name="Run spec 'crush_game_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_spec_'odd_or_even_spec'__ruby-101-challenges - 2018.10.26 at 08h 40m 08s.xml">
-      <configuration name="Run spec 'odd_or_even_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Run_spec_'can_you_vote_spec'__ruby-101-challenges - 2018.10.26 at 08h 41m 44s.xml">
+    <history-entry file="Run_spec_'can_you_vote_spec'__ruby-101-challenges - 2018.11.18 at 16h 58m 38s.xml">
       <configuration name="Run spec 'can_you_vote_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="#can_you_vote__returns_false_if_the_age_is_lower_than_18__ruby-101-challenges - 2018.10.26 at 08h 44m 54s.xml">
-      <configuration name="#can_you_vote? returns false if the age is lower than 18: ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'crush_game_spec'__ruby-101-challenges - 2018.11.18 at 16h 59m 16s.xml">
+      <configuration name="Run spec 'crush_game_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_spec_'max_spec'__ruby-101-challenges - 2018.10.26 at 08h 46m 23s.xml">
-      <configuration name="Run spec 'max_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'your_order_spec'__ruby-101-challenges - 2018.11.19 at 18h 06m 24s.xml">
+      <configuration name="Run spec 'your_order_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="#max_returns_the_correct_highest_number_for_8_and_4__ruby-101-challenges - 2018.10.26 at 08h 46m 36s.xml">
-      <configuration name="#max returns the correct highest number for 8 and 4: ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'your_order_spec'__ruby-101-challenges - 2018.11.19 at 18h 06m 41s.xml">
+      <configuration name="Run spec 'your_order_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Run_spec_'max_spec'__ruby-101-challenges - 2018.10.26 at 08h 49m 46s.xml">
-      <configuration name="Run spec 'max_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'your_order_spec'__ruby-101-challenges - 2018.11.19 at 18h 06m 48s.xml">
+      <configuration name="Run spec 'your_order_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Run_spec_'your_order_spec'__ruby-101-challenges - 2018.11.19 at 18h 07m 19s.xml">
+      <configuration name="Run spec 'your_order_spec': ruby-101-challenges" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7519000" />
+    <option name="totallyTimeSpent" value="41860000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1299" height="729" extended-state="0" />
-    <editor active="true" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20909816" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26895452" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32943144" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32943144" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44117647" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35620916" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-Merge-and-sort-array/lib/merge_and_sort_array.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-Word-counter/Rakefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -581,24 +623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-Word-counter/lib/word_counter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-Word-counter/spec/word_counter_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/06-Playlist-array/spec/add_song_to_playlist_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -619,9 +647,12 @@
     <entry file="file://$PROJECT_DIR$/07-odd-or-even/spec/odd_or_even_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Can-you-vote/Rakefile">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/08-Can-you-vote/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -631,34 +662,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/08-Can-you-vote/Rakefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/08-Can-you-vote/spec/can_you_vote_spec.rb">
+    <entry file="file://$PROJECT_DIR$/06-Playlist-array/spec/add_song_to_playlist_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-crush_game/Rakefile">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/08-Can-you-vote/lib/can_you_vote.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/09-Find-max/spec/max_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/09-Find-max/lib/max.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09-Find-max/spec/max_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-Word-counter/lib/word_counter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04-Merge-and-sort-array/lib/merge_and_sort_array.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-crush_game/spec/crush_game_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-crush_game/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" selection-start-line="6" selection-end-line="10" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08-Can-you-vote/spec/can_you_vote_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-your_order/spec/your_order_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/11-your_order/lib/your_order.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10-crush_game/lib/crush_game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>

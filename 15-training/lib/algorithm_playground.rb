@@ -1,6 +1,5 @@
 class AlgorithmPlayground
 
-
   def enhancer(word)
     array = word.downcase.split(//)
     index = array.size

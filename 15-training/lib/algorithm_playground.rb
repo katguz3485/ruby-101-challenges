@@ -15,8 +15,10 @@ class AlgorithmPlayground
     print output.join("-")
   end
 
+
   algorithmPlaygrouound = AlgorithmPlayground.new
-  algorithmPlaygrouound.enhancer('abcdab')
+  #algorithmPlaygrouound.enhancer('abcdab')
+   algorithmPlaygrouound.enhancer('abcdab')
 
 end
 

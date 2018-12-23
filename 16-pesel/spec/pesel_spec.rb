@@ -16,7 +16,7 @@ describe Pesel do
     end
   end
 
-  describe '#pesel_valid?' do
+  describe '.pesel_valid?' do
     it 'should check if provided pesel number is valid?' do
       expect(@subject.pesel_valid?(@valid_pesel)).to eq("Pesel number is correct")
       expect(@subject.pesel_valid?(@invalid_pesel)).to eq("Pesel number is not correct")
@@ -24,13 +24,13 @@ describe Pesel do
   end
 
 
-  describe '#date_of_birth' do
+  describe '.date_of_birth' do
     it 'should print date of birth based on provided pesel number' do
       expect(@subject.date_of_birth(@valid_pesel)).to eq("12-1-1990")
   end
 end
 
-  describe '#what_sex' do
+  describe '.what_sex' do
     it 'should print if sex is female or male according to the second to last value in pesel' do
       expect(@subject.what_sex(@valid_pesel)).to eq("male")
       expect(@subject.what_sex(@valid_pesel2)).to eq("female")

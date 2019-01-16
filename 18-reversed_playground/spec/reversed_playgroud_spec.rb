@@ -16,10 +16,5 @@ describe ReversedPlayground do
     end
   end
 
-  describe '.enhancer2' do
-    it 'should convert word to required format' do
-      expect(@subject.enhancer(TEST_WORD)).to eq(RESULT)
-    end
-  end
 
 end

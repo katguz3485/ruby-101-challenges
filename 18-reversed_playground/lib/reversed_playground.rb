@@ -5,18 +5,10 @@ class ReversedPlayground
     result = arr.map.with_index {|w, index| w * (index + 1)}
     result.map {|m| m.capitalize}.join("-")
   end
-
-  def enhancer2(word)
-    arr = word.split(//)
-
-
-  end
-
-
 end
 
 
 subject = ReversedPlayground.new
 puts subject.enhancer("abcd")
-puts subject.enhancer2("abcd")
+puts subject.enhancer("abcd")
 

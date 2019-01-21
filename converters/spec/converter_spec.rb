@@ -1,7 +1,7 @@
 require 'spec_helper'
 require_all 'lib'
 
-describe Converter do
+describe Api do
 
   test_density = 12.0
   result_density = "12.0 g/mL"
@@ -14,7 +14,7 @@ describe Converter do
   resource_concat_unit = '134.5 kg/L'
 
   before(:each) do
-    @chemical = Converter.new
+    @chemical = Api.new
   end
 
   describe '.unit_of_measurement_adder' do

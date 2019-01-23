@@ -4,7 +4,7 @@ gem 'rake', '~> 12.3'
 gem 'require_all'
 gem 'httparty'
 gem 'mechanize'
-
+gem  'rails'
 
 
 

@@ -4,7 +4,7 @@ require 'httparty'
 class Example
   include HTTParty
 
-  base_uri "rubygems.org/pub_chem_api_consumed/v1"
+  base_uri "rubygems.org/20-pub_chem_api_consumed/v1"
 
   attr_accessor :name, :info, :version, :authors, :downloads
 

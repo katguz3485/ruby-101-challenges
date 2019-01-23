@@ -1,8 +1,10 @@
 dir = File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'pp'
 require 'httparty'
+require 'json'
+require 'rails'
 
-class PubchemCompoundAtributes
+class PubChemApi
   include HTTParty
 
   base_uri 'https://pubchem.ncbi.nlm.nih.gov/rest/pug'
@@ -12,9 +14,10 @@ class PubchemCompoundAtributes
   # https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/PNG
   # https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/property/MolecularWeight,MolecularFormula,InChIKey,CanonicalSMILES/JSON
 
-  attr_reader :cid, :cas, :molecular_formula, :inchi_key, :canonical_smiles, :iupac_name
+  attr_reader :cid, :cas, :molecular_formula, :inchi_key, :canonical_smiles, :iupac_name, :property
 
-  def initialize()
+  def initialize
+    @property = property
 =begin
     @cas = cas
     @cid = cid
@@ -42,9 +45,14 @@ class PubchemCompoundAtributes
     else
       raise response.response
     end
+    @property = response["PropertyTable"]["Properties"]
   end
 
-
+  def to_hash_object
+    property = @property.join(",")
+    property = JSON.parse(property.gsub(/:([a-zA-z]+)/, '"\\1"').gsub('=>', ': ')).stringify_keys
+    property
+  end
 
   def picture(cid)
     # https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/PNG
@@ -57,9 +65,9 @@ class PubchemCompoundAtributes
   end
 end
 
-pubChem = PubchemCompoundAtributes.new
+pubChem = PubChemApi.new
 puts cid = pubChem.cas_to_cid("50-78-2")
-puts pubChem.find_properties(cid)
-puts pubChem.picture(cid)
+pubChem.find_properties(cid)
+puts pubChem.to_hash_object
 
 

@@ -44,6 +44,8 @@ class PubchemCompoundAtributes
     end
   end
 
+
+
   def picture(cid)
     # https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/PNG
     response = self.class.get("/compound/cid/#{cid}/PNG")
@@ -53,10 +55,7 @@ class PubchemCompoundAtributes
       raise response.response
     end
   end
-
-
 end
-
 
 pubChem = PubchemCompoundAtributes.new
 puts cid = pubChem.cas_to_cid("50-78-2")

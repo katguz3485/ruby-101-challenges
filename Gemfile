@@ -5,6 +5,7 @@ gem 'require_all'
 gem 'httparty'
 gem 'mechanize'
 gem  'rails'
+gem "pry-rails"
 
 
 

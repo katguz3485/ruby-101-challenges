@@ -3,29 +3,23 @@ require 'pp'
 require 'httparty'
 require 'json'
 require 'rails'
+require 'uri'
+require 'pry-rails'
 
 class PubChemApi
   include HTTParty
 
   base_uri 'https://pubchem.ncbi.nlm.nih.gov/rest/pug'
 
-  #https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/50-78-2/cids/JSON
+  # https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/50-78-2/cids/JSON
   # https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/property/MolecularFormula,InChIKey/JSON
   # https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/PNG
   # https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/property/MolecularWeight,MolecularFormula,InChIKey,CanonicalSMILES/JSON
 
-  attr_reader :cid, :cas, :molecular_formula, :inchi_key, :canonical_smiles, :iupac_name, :property
+  attr_reader :property
 
   def initialize
     @property = property
-=begin
-    @cas = cas
-    @cid = cid
-    @iupac_name = iupac_name
-    @molecular_formula = molecular_formula
-    @inchi_key = inchi_key
-    @canonical_smiles = canonical_smiles
-=end
   end
 
   def cas_to_cid(cas)
@@ -41,7 +35,8 @@ class PubChemApi
   def find_properties(cid)
     response = self.class.get("/compound/cid/#{cid}/property/IUPACName,MolecularWeight,MolecularFormula,InChIKey,CanonicalSMILES/JSON")
     if response.success?
-      response["PropertyTable"]["Properties"]
+      response["PropertyTable"]["Properties"].instance_of?(String)
+      binding.pry
     else
       raise response.response
     end
@@ -54,20 +49,31 @@ class PubChemApi
     property
   end
 
+  def show_property(name)
+    property = to_hash_object
+    property[name]
+  end
+
   def picture(cid)
     # https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/PNG
     response = self.class.get("/compound/cid/#{cid}/PNG")
     if response.success?
-      return Base64.encode64(response)
+      response
+      binding.pry
     else
       raise response.response
     end
+    response
   end
 end
+
 
 pubChem = PubChemApi.new
 puts cid = pubChem.cas_to_cid("50-78-2")
 pubChem.find_properties(cid)
 puts pubChem.to_hash_object
+puts pubChem.show_property("MolecularWeight")
+puts pubChem.picture(cid)
+
 
 

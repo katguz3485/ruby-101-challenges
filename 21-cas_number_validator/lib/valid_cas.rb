@@ -1,4 +1,5 @@
 require 'pp'
+require 'pry'
 
 class ValidCas
 
@@ -10,6 +11,7 @@ class ValidCas
       sum = sum + digit.to_i * i
     end
     check_digit == sum.remainder(10)
+
   end
 
   def is_valid?(cas_number)
@@ -19,5 +21,6 @@ end
 
 
 cas_validator = ValidCas.new
-pp cas_validator.validate("71-43-2")
-pp cas_validator.is_valid?("71-43-2")
+puts cas_validator.validate("71-43-2")
+puts cas_validator.validate("71-43-55")
+puts cas_validator.is_valid?("71-43-2")

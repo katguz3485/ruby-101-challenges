@@ -36,7 +36,7 @@ class PubChemApi
     response = self.class.get("/compound/cid/#{cid}/property/IUPACName,MolecularWeight,MolecularFormula,InChIKey,CanonicalSMILES/JSON")
     if response.success?
       response["PropertyTable"]["Properties"].instance_of?(String)
-      binding.pry
+
     else
       raise response.response
     end

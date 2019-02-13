@@ -28,11 +28,14 @@ end
 
 #array_of_hashes.sort_by { |hsh| hsh[:zip] }
 
-def vip_users(data, limit = 1)
+def vip_users(data, limit)
 
   data.sort_by {|hsh| hsh[:age]}.last(limit)
 
 end
+
+puts vip_users(@data, 1)
+
 
 # fibonacii sequence with recursion
 def fibonaci(n)
@@ -52,7 +55,5 @@ puts diff
 
 # fibonacii without recursion
 
-=begin
-def fibonacii_2(n)
 
-end=end
+

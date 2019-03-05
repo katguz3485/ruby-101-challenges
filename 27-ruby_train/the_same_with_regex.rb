@@ -1,0 +1,3 @@
+class TheSameWithRegex
+
+end

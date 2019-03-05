@@ -1,4 +1,5 @@
 require 'pp'
+require 'pry'
 #procs
 class Greeter
   def to_proc
@@ -120,3 +121,54 @@ begin
 rescue => e
   retry if e.safe_to_retry
 end
+
+#enumerators
+
+a = b = 1
+fibonacci = Enumerator.new do |yielder|
+  loop do
+    yielder << a
+    a, b = b, a + b
+
+  end
+end
+
+arr = fibonacci.take 10
+pp arr[0]
+pp arr[1]
+pp arr[9]
+
+arr2 = (1..5).to_a
+arr2.inject(0) do |sum, x|
+  puts x
+  sum = sum +x
+  pp sum
+end
+
+#singleton
+class Thing
+
+end
+
+thing1 = Thing.new
+thing2 = Thing.new
+
+def thing1.makestuff
+  puts "I belong to thing one"
+end
+
+thing1.makestuff
+#thing2.makestuff
+
+
+class Thing
+  class << self # the anonymous class
+    def hello(name)
+      puts "Hello #{name}"
+    end
+  end
+end
+
+Thing.hello("sarah")
+
+

@@ -59,7 +59,6 @@ class PubChemApi
     response = self.class.get("/compound/cid/#{cid}/PNG")
     if response.success?
       response
-      binding.pry
     else
       raise response.response
     end

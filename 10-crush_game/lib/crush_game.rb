@@ -8,6 +8,7 @@ def crush_game(word)
   word
 end
 
+Sample Tests:
 def crush_game1(word)
   regex = /((.)\2{2,})/
 

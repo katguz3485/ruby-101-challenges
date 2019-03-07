@@ -15,5 +15,4 @@ class TheSameWithRegex
 end
 
 validator = TheSameWithRegex.new
-
-pp validator.valid_parentheses("((()")
+pp validator.valid_parentheses("dasads((()sasd")

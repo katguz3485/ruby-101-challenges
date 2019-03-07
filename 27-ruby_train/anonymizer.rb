@@ -7,7 +7,7 @@ require 'pp'
 
 class Anonymizer
 
-  def anonymize(text)
+ def anonymize(text)
     replace = []
     text.each_char do |char|
      replace << char.sub(char, ".")

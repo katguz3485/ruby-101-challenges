@@ -1,14 +1,12 @@
-require 'httparty'
+require 'open-uri'
 require 'json'
 require 'rails'
 require 'pry-rails'
-
 require_relative './pub_chem_service_cid.rb'
 
-class PubChemCompoundPicture
-  include HTTParty
+class PubChemCompoundPicture2
 
-  base_uri 'https://pubchem.ncbi.nlm.nih.gov/rest/pug'
+  URL = 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/' + "#{@cid}" + '/PNG'
 
   def initialize(cid:)
     @cid = PubChemServiceCid.new(cas: "50-78-2").call
@@ -22,18 +20,16 @@ class PubChemCompoundPicture
 
   def picture_download
     # https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/PNG
-    response = self.class.get("/compound/cid/#{@cid}/PNG")
-
-    if response.success?
-      picture = response
-    else
-      raise response.response
+    begin
+      open(URL).read
+    rescue OpenURI::HTTPError => error
+      return nil
     end
-    picture
   end
+
 end
 
-puts pubChem = PubChemCompoundPicture.new(cid: @cid).call
+puts pubChem = PubChemCompoundPicture2.new(cid: @cid).call
 
 
 

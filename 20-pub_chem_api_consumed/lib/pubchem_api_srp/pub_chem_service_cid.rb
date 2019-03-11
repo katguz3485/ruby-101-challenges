@@ -5,7 +5,7 @@ require 'rails'
 require 'uri'
 require 'pry-rails'
 
-class PubChemServiceAgain
+class PubChemServiceCid
   include HTTParty
 
   base_uri 'https://pubchem.ncbi.nlm.nih.gov/rest/pug'
@@ -15,7 +15,6 @@ class PubChemServiceAgain
   def initialize(cas:)
     @property = property
     @cas = cas
-
   end
 
   def call
@@ -35,7 +34,7 @@ class PubChemServiceAgain
   end
 end
 
-puts pubChem = PubChemServiceAgain.new(cas: "50-78-2").call
+puts pubChem = PubChemServiceCid.new(cas: "50-78-2").call
 
 # puts pubChem.to_hash_object
 # puts pubChem.show_property("MolecularWeight")

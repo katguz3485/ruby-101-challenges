@@ -2,7 +2,7 @@ dir = File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'pp'
 require 'httparty'
 
-class PubChemApi
+class PubChemCompoundProperty
   include HTTParty
 
   base_uri 'https://pubchem.ncbi.nlm.nih.gov/rest/pug'
@@ -56,7 +56,7 @@ class PubChemApi
 
 end
 
-pp pubChemcmompundAttributes = PubChemApi.cas_to_cid
-pp pubChemcmompundAttributes = PubChemApi.find
-pp pubChemcmompundAttributes = PubChemApi.picture
+pp pubChemcmompundAttributes = PubChemCompoundProperty.cas_to_cid
+pp pubChemcmompundAttributes = PubChemCompoundProperty.find
+pp pubChemcmompundAttributes = PubChemCompoundProperty.picture
 

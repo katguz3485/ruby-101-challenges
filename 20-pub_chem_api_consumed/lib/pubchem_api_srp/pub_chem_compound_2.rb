@@ -8,6 +8,7 @@ class PubChemCompoundPicture2
 
   URL = 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/' + "#{@cid}" + '/PNG'
 
+
   def initialize(cid:)
     @cid = PubChemServiceCid.new(cas: "50-78-2").call
   end

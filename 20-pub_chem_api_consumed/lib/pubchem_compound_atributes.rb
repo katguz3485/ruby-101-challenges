@@ -1,6 +1,7 @@
 dir = File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib'))
 require 'pp'
 require 'httparty'
+require 'pry'
 
 class PubChemCompoundProperty
   include HTTParty
@@ -47,13 +48,13 @@ class PubChemCompoundProperty
     response = get("/compound/cid/#{cid}/PNG")
     if response.success?
       return Base64.encode64(response)
-      #puts response
+
     else
+      puts response.response
       raise response.response
     end
 
   end
-
 end
 
 pp pubChemcmompundAttributes = PubChemCompoundProperty.cas_to_cid

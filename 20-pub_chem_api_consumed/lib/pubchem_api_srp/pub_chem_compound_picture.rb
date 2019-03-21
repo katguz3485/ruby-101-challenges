@@ -29,7 +29,8 @@ class PubChemCompoundPicture
     else
       raise response.response
     end
-    picture
+  picture
+  # picture
   end
 end
 

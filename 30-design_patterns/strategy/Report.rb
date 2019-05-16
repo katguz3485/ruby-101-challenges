@@ -1,4 +1,5 @@
-require_relative '../strategy/HTMLFormatter'
+require 'HTMLFormatter'
+require 'PlainTextFormatter'
 
 class Report
 
@@ -13,7 +14,29 @@ class Report
   end
 
   def output_report
-    @formatter.output_report(@title, @text)
+     @formatter.output_report(@title, @text)
+    # passing the context
+    # @formatter.output_report(self)
+    #
+    # def output_report(context)
+    # raise 'Abstract method called'
+    # end
+    #
+    # def output_report(context)
+    # puts('<html>')
+    # puts(' <head>')
+    # puts("
+    # <title>#{context.title}</title>")
+    # puts(' </head>')
+    # puts(' <body>')
+    # context.text.each do |line|
+    # puts("
+    # <p>#{line}</p>")
+    # end
+    # puts(' </body>')
+    # puts('</html>')
+    # end
+    #
   end
 end
 

@@ -14,7 +14,6 @@ def foo(val)
   return "FizzBuzz" if val % 15 == 0
   return "Buzz" if val % 5 == 0
   return "Fizz" if val % 3 == 0
-
 end
 
 

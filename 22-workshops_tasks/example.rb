@@ -1,5 +1,4 @@
 class Example
-
   attr_reader :name
   attr_writer :name
 
@@ -11,26 +10,22 @@ class Example
     name
   end
 
-  #class  method
+  # class  method
   def self.display_name
     "class name"
   end
 
 
-  #alias :name
-=begin
-
-  def get_name
-    @name
-  end
-
-
-  def set_name=(x)
-    @name = x
-  end
-=end
-
-
+  # alias :name
+  #
+  #   def get_name
+  #     @name
+  #   end
+  #
+  #
+  #   def set_name=(x)
+  #     @name = x
+  #   end
 end
 
 example = Example.new("some name")

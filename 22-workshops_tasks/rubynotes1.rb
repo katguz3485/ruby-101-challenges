@@ -1,24 +1,24 @@
 require 'pp'
 require 'pry'
-#procs
+# procs
 class Greeter
   def to_proc
-    Proc.new do |item|
+    proc do |item|
       puts "Hello, #{item}"
     end
   end
 end
 
 greet = Greeter.new
-%w(world life).each(&greet)
+%w[world life].each(&greet)
 
 
-letter_counts = %w(just some words).map(&:length)
+letter_counts = %w[just some words].map(&:length)
 puts letter_counts
 
 p ['rabbit', 'grass'].map(&:upcase)
 
-output = method (:p)
+output = method :p
 ['rabbit', 'grass'].map(&output)
 
 
@@ -28,7 +28,7 @@ def block_caller
   puts "other code"
 end
 
-block_caller {puts "My own block"}
+block_caller { puts "My own block" }
 
 def block_caller
   puts "some code"
@@ -46,11 +46,10 @@ class Application
   def configuration
     @configuration ||= Configuration.new
     block_given? ? yield(@configuration) : @configuration
-
   end
 end
 
-class Configuration;
+class Configuration
 end
 app = Application.new
 app.configuration do |config|
@@ -60,7 +59,7 @@ end
 pp app.configuration
 
 my_variable = 8
-3.times do |x|
+3.times do |_x|
   puts "#{my_variable} bloc"
 end
 
@@ -70,7 +69,7 @@ array = (1..10).to_a
 puts array.inspect
 
 array.reverse_each do |val|
-  puts "#{val}"
+  puts val.to_s
 end
 
 class NaturalNumbers
@@ -88,23 +87,23 @@ end
 n = NaturalNumbers.new(6)
 pp n.reduce(:+)
 pp n.select(&:even?)
-pp n.map {|number| number **2}
+pp n.map { |number| number**2 }
 
 
-[[1, 2], [3, 4]].each {|(a, b)| p "a: #{ a }", "b: #{ b }"}
+[[1, 2], [3, 4]].each { |(a, b)| p "a: #{a}", "b: #{b}" }
 
-{a: 123, b: 1234}.each {|pair| p "pair #{pair}"}
+{ a: 123, b: 1234 }.each { |pair| p "pair #{pair}" }
 
-{a: 1, b: 2, c: 3}.each {|(k, v)| p "k: #{ k }", "v: #{ k }"}
+{ a: 1, b: 2, c: 3 }.each { |(k, _v)| p "k: #{k}", "v: #{k}" }
 
-[1, 2, 3].map.with_index {|e, i| puts "Element of array number #{i} => #{e}"}
-[1, 2, 3].map.with_index(1) {|e, i| puts "Element of array number #{i} => #{e}"}
+[1, 2, 3].map.with_index { |e, i| puts "Element of array number #{i} => #{e}" }
+[1, 2, 3].map.with_index(1) { |e, i| puts "Element of array number #{i} => #{e}" }
 
 arr = [1, 2, 3]
-pp arr.map {|i| i + 1}
+pp arr.map { |i| i + 1 }
 pp arr
 
-#exceptions
+# exceptions
 #
 class CustomError < StandardError
   attr_reader :safe_to_retry
@@ -118,18 +117,17 @@ end
 
 begin
   puts "OK"
-rescue => e
+rescue StandardError => e
   retry if e.safe_to_retry
 end
 
-#enumerators
+# enumerators
 
 a = b = 1
 fibonacci = Enumerator.new do |yielder|
   loop do
     yielder << a
     a, b = b, a + b
-
   end
 end
 
@@ -141,13 +139,12 @@ pp arr[9]
 arr2 = (1..5).to_a
 arr2.inject(0) do |sum, x|
   puts x
-  sum = sum +x
+  sum = sum + x
   pp sum
 end
 
-#singleton
+# singleton
 class Thing
-
 end
 
 thing1 = Thing.new
@@ -158,7 +155,7 @@ def thing1.makestuff
 end
 
 thing1.makestuff
-#thing2.makestuff
+# thing2.makestuff
 
 
 class Thing

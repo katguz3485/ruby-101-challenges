@@ -1,13 +1,13 @@
 require 'spec_helper'
 require_all 'lib'
 
-describe ReversedPlayground do
+describe Parser do
 
   TEST_WORD = "abcd"
   RESULT = "A-Bb-Ccc-Dddd"
 
   before(:each) do
-    @subject = ReversedPlayground.new
+    @subject = Parser.new
   end
 
   describe '.enhancer' do

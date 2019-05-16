@@ -10,8 +10,6 @@ end
 
 class ClassWithModule
   include ModuleExample
-
-
 end
 
 example = ClassWithModule.new

@@ -1,5 +1,4 @@
 class Pesel
-
   def ask_for_pesel
     puts "Enter a pesel number"
     return gets.to_i
@@ -20,7 +19,6 @@ class Pesel
     end
     info
   end
-
 
   def date_of_birth(pesel)
     p = pesel_to_array(pesel)
@@ -58,6 +56,4 @@ class Pesel
   puts subject.pesel_valid?(pesel)
   puts subject.what_sex(pesel)
   puts subject.date_of_birth(pesel)
-
-
 end

@@ -1,7 +1,7 @@
 require 'pp'
 require 'rails'
 
-#present blank empty test
+# present blank empty test
 
 def test
   puts [].empty?
@@ -11,13 +11,12 @@ def test
   puts nil.blank?
 end
 
-
 def flizz_buzz(value)
   return "FizzBuzz" if value % 3 == 0 && value % 5 == 0
   return "Fizz" if value % 3 == 0
   return "Buzz" if value % 5 == 0
-  value
 
+  value
 end
 
 pp test

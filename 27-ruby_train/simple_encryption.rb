@@ -1,4 +1,4 @@
-#For the Latin alphabet, this could be mapped as:
+# For the Latin alphabet, this could be mapped as:
 require 'pp'
 require 'pry'
 # A|B|C|D|E|F|G|H|I|J|K|L|M
@@ -7,8 +7,6 @@ require 'pry'
 # ת|ש|ר|ק|צ|פ|ע|ס|נ|מ|ל
 #
 class Cipher
-
-
   def initialize(abc)
     @abc = abc
   end
@@ -17,9 +15,7 @@ class Cipher
     str.tr @abc, @abc.reverse
   end
 
-  alias_method :decode, :encode
-
-
+  alias decode encode
 end
 c = Cipher.new("abc")
 puts c.encode("cda")

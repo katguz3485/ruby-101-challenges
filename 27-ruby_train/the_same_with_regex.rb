@@ -1,17 +1,10 @@
 class TheSameWithRegex
-
-
   def valid_parentheses(string)
-
     a = string.gsub(/[^\(\)]/, '')
-    while a.gsub!('()', '');
+    while a.gsub!('()', '')
     end
     a.empty?
-
   end
-
-
-
 end
 
 validator = TheSameWithRegex.new

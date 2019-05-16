@@ -1,8 +1,8 @@
-#rite Ruby program to get ruby version with patch number.
+# rite Ruby program to get ruby version with patch number.
 puts "Ruby Version: " + RUBY_VERSION
 puts "Ruby Patch Level: " + RUBY_PATCHLEVEL.to_s
 
-#3. Write a Ruby program to create a new string which
+# 3. Write a Ruby program to create a new string which
 # is n copies of a given string where n is a non-negative integer.
 def copyString(n, string)
   string * n + "\n"
@@ -10,7 +10,7 @@ end
 
 puts copyString(10, 'a')
 
-#Write a Ruby program to
+# Write a Ruby program to
 # display the current date and time
 def current_date
   date = Time.now.strftime("%d/%m/%Y %H:%M")
@@ -19,22 +19,21 @@ end
 
 puts current_date
 
-#Write a Ruby program which accept the
+# Write a Ruby program which accept the
 # radius of a circle from the user and compute the parameter and area.
 def radius_calc
   puts "Enter the radius value"
   radius = gets.to_f
   pi = Math::PI
   perimeter = 2 * pi * radius
-  area = pi * radius ** 2
+  area = pi * radius**2
   puts "Input the radius of the circle: #{radius}"
   puts "The perimeter is #{perimeter}"
   puts "The area is #{area}"
-
 end
 
 
-#radius_calc
+# radius_calc
 
 # Write a program to
 # print the multiply of decimal numbers.
@@ -46,13 +45,12 @@ er"
   b = gets.to_f
   result = a * b
   puts result
-
 end
 
 multiply
 
 
-#Write a Ruby program which accept the user's first and last
+# Write a Ruby program which accept the user's first and last
 # name and print them in reverse order with a space between them.
 
 
@@ -92,7 +90,7 @@ end
 extension_of_file
 
 
-#Write a Ruby program to check three numbers and return true if
+# Write a Ruby program to check three numbers and return true if
 # one or more of them are small. A number is called "small"
 # if it is in the range 1..10 inclusive.
 
@@ -102,7 +100,6 @@ def number_value_checker(number)
   else
     puts false
   end
-
 end
 
 puts number_value_checker(5)
@@ -111,7 +108,6 @@ puts number_value_checker(12)
 
 
 def new_string_create(string)
-
   if string.contains(string, "if")
     string
   else

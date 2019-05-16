@@ -1,7 +1,7 @@
 require 'rails'
 require 'pp'
 require 'pry'
-#Deadfish has 4 commands, each 1 character long:
+# Deadfish has 4 commands, each 1 character long:
 
 # i increments the value (initially 0)
 # d decrements the value
@@ -10,7 +10,6 @@ require 'pry'
 # Invalid characters should be ignored.
 #
 class DeadFish
-
   def parse(text)
     output = []
     counter = 0
@@ -23,7 +22,6 @@ class DeadFish
     end
     output
   end
-
 end
 
 

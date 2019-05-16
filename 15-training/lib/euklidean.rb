@@ -1,6 +1,5 @@
 class Euklidean
-
-  #returns the greatest common divisor
+  # returns the greatest common divisor
 
   def euklidean_algorihtm(num1, num2)
     while num1 != num2
@@ -16,5 +15,4 @@ class Euklidean
 
   euklidean = Euklidean.new
   euklidean.euklidean_algorihtm(3, 3)
-
 end

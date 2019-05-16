@@ -17,29 +17,25 @@ class Example
     self.downloads = downloads
   end
 
-   def versions
+  def versions
     response = self.class.get("/versions/#{name}.json")
     if response.success?
       response
     else
       raise response.response
     end
-  end
-
+ end
 
   def self.find(name)
     response = get("/gems/#{name}.json")
     if response.success?
-      self.new(response["name"], response["info"], response["version"],
-               response["authors"], response["downloads"])
+      new(response["name"], response["info"], response["version"],
+          response["authors"], response["downloads"])
     else
       # this just raises the net/http response that was raised
       raise response.response
     end
   end
-
-
-
 end
 
 httparty = Example.find("httparty")

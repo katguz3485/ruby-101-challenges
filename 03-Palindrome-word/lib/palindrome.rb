@@ -1,6 +1,6 @@
 def palindrome?(word)
   word.downcase!
-  if word.length == 1 || word.length == 0
+  if word.length == 1 || word.empty?
     true
   else
     if word[0] == word[-1]
@@ -11,4 +11,4 @@ def palindrome?(word)
   end
 end
 # To see the result of this method you can uncomment the line below:
-  puts palindrome?("Stats")
+puts palindrome?("Stats")

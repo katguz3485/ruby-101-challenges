@@ -5,8 +5,7 @@ require 'pry-rails'
 require_relative './pub_chem_service_cid.rb'
 
 class PubChemCompoundPicture2
-
-  URL = 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/' + "#{@cid}" + '/PNG'
+  URL = 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/' + @cid.to_s + '/PNG'
 
 
   def initialize(cid:)
@@ -21,13 +20,11 @@ class PubChemCompoundPicture2
 
   def picture_download
     # https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2244/PNG
-    begin
-      open(URL).read
-    rescue OpenURI::HTTPError => error
-      return nil
-    end
-  end
 
+    open(URL).read
+  rescue OpenURI::HTTPError => e
+    return nil
+  end
 end
 
 puts pubChem = PubChemCompoundPicture2.new(cid: @cid).call

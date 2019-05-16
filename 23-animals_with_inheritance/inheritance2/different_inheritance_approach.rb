@@ -1,22 +1,18 @@
 class Animal
-
   attr_accessor :owner, :genre, :noise
 
   def initialize(owner, genre, noise)
     @owner = owner
-    @genre =  genre
+    @genre = genre
     @noise = noise
   end
 
   def speak
     puts sound
   end
-
 end
 
 class Dog < Animal
-
-
   def initialize(owner, genre, noise)
     super(owner, genre, noise)
     @noise = noise
@@ -34,16 +30,13 @@ class Dog < Animal
 end
 
 class Cat < Animal
-
   def initialize
     super(owner, genre, noise)
   end
 
-
   def noise
-   "Miauu"
+    "Miauu"
   end
-
 end
 
 

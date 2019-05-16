@@ -21,10 +21,7 @@ puts diff
 
 
 
-def fibonacci_iterative(n)
-
-
-end
+def fibonacci_iterative(n); end
 
 start1 = Time.now
 pp fibonacci_iterative(5)

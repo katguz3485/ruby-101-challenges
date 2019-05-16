@@ -53,7 +53,6 @@ class PubChemCompoundProperty
       puts response.response
       raise response.response
     end
-
   end
 end
 

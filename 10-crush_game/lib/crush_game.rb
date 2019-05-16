@@ -12,9 +12,7 @@ Sample Tests:
 def crush_game1(word)
   regex = /((.)\2{2,})/
 
-  while word.match(regex)
-    word = word.gsub(regex, '')
-  end
+  word = word.gsub(regex, '') while word.match(regex)
   word
 end
 

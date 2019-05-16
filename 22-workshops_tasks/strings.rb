@@ -4,7 +4,6 @@ require 'pp'
 # checks if word is palindrome?
 def is_palindrome?(string)
   string == string.reverse
-
 end
 
 puts is_palindrome?("level")

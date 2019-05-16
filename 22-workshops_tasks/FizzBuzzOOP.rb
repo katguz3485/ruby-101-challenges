@@ -1,5 +1,4 @@
 class FizBuzz
-
   attr_accessor :value
 
   def initialize(value)
@@ -17,7 +16,6 @@ class FizBuzz
       value
     end
   end
-
 end
 
 

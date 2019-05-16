@@ -1,5 +1,4 @@
 class FindIndex
-
   # method is searching for an element and returns index of array where element is located
 
   def find_index(array, value)
@@ -16,6 +15,4 @@ class FindIndex
   finder.find_index([1, 2, 3], 3)
   finder.find_index2([1, 2, 3], 2)
   finder.find_index2([1, 2, 3], 4)
-
-
 end

@@ -4,7 +4,7 @@ require 'active_support'
 dir = File.expand_path(File.join(File.dirname(__FILE__), '..', 'lib'))
 require File.join(dir, 'httparty')
 require 'pp'
-config = YAML.load(File.read(File.join(ENV['HOME'], '.aaws')))
+config = YAML.safe_load(File.read(File.join(ENV['HOME'], '.aaws')))
 
 module AAWS
   class Book
@@ -20,7 +20,7 @@ module AAWS
       raise ArgumentError, 'You must search for something' if options[:query].blank?
 
       # amazon uses nasty camelized query params
-      options[:query] = options[:query].inject({}) { |h, q| h[q[0].to_s.camelize] = q[1]; h }
+      options[:query] = options[:query].each_with_object({}) { |q, h| h[q[0].to_s.camelize] = q[1]; }
 
       # make a request and return the items (NOTE: this doesn't handle errors at this point)
       self.class.get('/onca/xml', options)['ItemSearchResponse']['Items']

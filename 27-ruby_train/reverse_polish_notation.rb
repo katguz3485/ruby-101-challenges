@@ -12,11 +12,9 @@ require 'pry'
 
 
 class ReversePolishCalc
-
-  OPERATORS = %w(+ - * / )
+  OPERATORS = %w[+ - * /]
 
   def calc(expr)
-
     return 0 if expr == ""
 
     arr = expr.split
@@ -32,7 +30,6 @@ class ReversePolishCalc
     end
     stack.last
   end
-
 end
 
 

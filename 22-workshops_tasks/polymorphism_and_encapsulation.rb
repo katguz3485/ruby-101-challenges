@@ -1,7 +1,5 @@
 class Person
-  def initialize()
-
-  end
+  def initialize; end
 
   def say_something
     "something"
@@ -9,20 +7,16 @@ class Person
 end
 
 class Parent < Person
-
   def say_something
     "I am adult"
   end
-
-
 end
 
 class Child < Person
-
-  #metody mozna uzywac wewnatrz klasy
+  # metody mozna uzywac wewnatrz klasy
   def say_something
     # "I am not"
-    #super + "sth"
+    # super + "sth"
     age
   end
 
@@ -31,7 +25,6 @@ class Child < Person
   def age
     12
   end
-
 end
 
 child = Child.new

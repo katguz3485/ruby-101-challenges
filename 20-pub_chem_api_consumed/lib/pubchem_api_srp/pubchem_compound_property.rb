@@ -24,7 +24,6 @@ class PubChemCompoundProperty
     @table = table
   end
 
-
   def call
     find_properties
   end
@@ -40,9 +39,6 @@ class PubChemCompoundProperty
     end
     @table = JSON.parse(property.gsub(/:([a-zA-z]+)/, '"\\1"').gsub('=>', ': ')).symbolize_keys
   end
-
-
-
 end
 
 

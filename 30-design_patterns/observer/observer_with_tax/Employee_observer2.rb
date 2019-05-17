@@ -3,7 +3,7 @@ class EmployeeObserver2
   attr_reader :name, :title
   attr_reader :salary
 
-  def initialize(name, title, salary, payroll)
+  def initialize(name, title, salary)
     @name = name
     @title = title
     @salary = salary
@@ -39,11 +39,20 @@ class Payroll
   end
 end
 
+class TaxMan
+  def update(changed_employee)
+    puts ("Send #{changed_employee.name } a new tax bill")
+  end
+end
 
-fred = Employee.new('Fred', 'Crane Operator', 30000.0)
+fred = EmployeeObserver2.new("Fred", "salary updates", 3000.0)
 payroll = Payroll.new
+puts fred.add_observer(payroll)
+puts fred.salary
 
+tax_man = TaxMan.new
 
-# payroll = Payroll.new
-# fred = Employee.new("Fred Flintstone", "Crane Operator", 30000.0, payroll)
-# puts fred.salary = 3443
+ fred.add_observer(tax_man)
+fred.delete_observer(payroll)
+puts fred.salary = 9000
+

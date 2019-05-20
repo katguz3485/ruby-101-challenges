@@ -1,5 +1,5 @@
-require_relative '../strategy/HTMLFormatter'
-require_relative '../strategy/Formatter'
+require_relative '../strategy/html_formatter.rb'
+require_relative '../strategy/'
 
 class HTMLFormatter < Formatter
 

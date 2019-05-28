@@ -44,6 +44,62 @@ animal = Animal.new("Animal name", "black")
 puts animal.color
 
 serialized = AnimalSerializer.new(animal).serialize
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 deserialized = AnimalSerializer.deserialize(serialized)
 
 puts animal

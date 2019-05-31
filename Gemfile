@@ -6,7 +6,7 @@ gem "pry-rails"
 gem 'rails'
 gem 'rake', '~> 12.3'
 gem 'require_all'
-
+gem 'openssl'
 
 
 group :test do

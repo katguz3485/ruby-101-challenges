@@ -44,14 +44,6 @@ end
 
 puts pubChemHash = PubChemCompoundProperty.new(cid: @cid).call
 puts pubChemHash.values
-
-
-
-
-
-
-
-
 # pubChem.find_properties(cid)
 # puts pubChem.to_hash_object
 # puts pubChem.show_property("MolecularWeight")

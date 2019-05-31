@@ -5,9 +5,6 @@ class GitHubService
 
   base_uri 'https://api.github.com/'
 
-  # BASE_URL = 'https://api.github.com'
-
-
   def initialize(user)
     @user = user
   end
@@ -25,4 +22,4 @@ class GitHubService
 end
 
 gh = GitHubService.new("katguz3485")
-puts gh.call
+puts gh.call.class

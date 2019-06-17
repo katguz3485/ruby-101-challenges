@@ -1,7 +1,7 @@
 require 'pry'
 require 'pp'
 
-class ListNames
+class ListNames2
   def list names
     arr = []
     last_elem = []
@@ -15,7 +15,7 @@ class ListNames
   end
 end
 
-ln = ListNames.new
+ln = ListNames2.new
 puts ln.list([{name: 'Bart'}, {name: 'Lisa'}, {name: 'Maggie'}])
 puts ln.list([])
 puts ln.list([{name: 'Bart'}, {name: 'Lisa'}])

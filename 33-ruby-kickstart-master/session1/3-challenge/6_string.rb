@@ -6,5 +6,15 @@
 #
 
 def odds_and_evens(string, return_odds)
-
+  arr = string.split("")
+  if return_odds
+    arr.each_with_index {|w, index| arr.delete(w) if index.odd?}.join(",")
+  else
+    arr.each_with_index {|w, index| arr.delete(w) if index.even?}.join(",")
+  end
 end
+
+puts odds_and_evens("kasia", true)
+puts odds_and_evens("kasia", false)
+
+

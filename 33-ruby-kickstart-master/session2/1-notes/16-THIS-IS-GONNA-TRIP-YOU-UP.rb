@@ -24,5 +24,5 @@ class Flight
 end
 
 f = Flight.new
-f.arrival_time = 1100
+puts f.arrival_time = 1100
 f.reset

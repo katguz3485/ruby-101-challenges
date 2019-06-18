@@ -14,16 +14,20 @@
 
 def grade(num_books, has_read_books)
   if has_read_books
-    return "D" if num_books < 10
-    return "C" if (10..20).member?(num_books)
-    return "B" if num_books > 20
+    return "C" if num_books <  10
+    return "B" if num_books <= 20
+    return "A"
   else
-    "D"
+    return "D" if num_books <  10
+    return "C" if num_books <= 20
+    return "B"
   end
 end
 
 
-# puts grade(4, false) # => "D"
-# puts grade(4, true) # => "C"
-# puts grade(15, true) # => "B"
+
+puts grade(4, false) # => "D"
+puts grade(4, true) # => "C"
+puts grade(15, true) # => "B"
+
 

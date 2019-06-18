@@ -1,3 +1,6 @@
+
+require '../../session1/3-challenge/2_arithmetic'
+
 RSpec.describe "arithmetic2" do
   let(:test_array) {
     [ -7, -6, -3.5,

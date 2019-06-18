@@ -1,3 +1,5 @@
+require '../../session1/3-challenge/4_logic'
+
 RSpec.describe "grade" do
   context "for non book reader" do
     0.upto 9 do |num_books|

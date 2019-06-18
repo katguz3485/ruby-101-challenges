@@ -9,8 +9,9 @@
 # arithmetic2(-6, -7)  # => -3.5
 
 def arithmetic2(a, b)
-  return a/2.to_f if a < b
-  return b/2.to_f if b < a
+  return a / 2.to_f if a < b
+  return b / 2.to_f if b < a
+  return a / 2.to_f if a == b
 
 end
 

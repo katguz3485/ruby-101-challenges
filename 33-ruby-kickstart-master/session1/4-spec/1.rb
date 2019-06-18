@@ -1,6 +1,7 @@
-
+require '../../session1/3-challenge/1_arithmetic'
 
 RSpec.describe "arithmetic1" do
+
   it 'returns 30 when passed 10' do
     expect(arithmetic1 10).to eq 30
   end

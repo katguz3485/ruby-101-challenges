@@ -17,9 +17,9 @@ class << obj
     'Howdy, partner.'
   end
 end
-obj.singleton_class.instance_methods false # => [:greet]
-obj.singleton_methods # => [:greet]
-obj.greet # => "Howdy, partner."
+puts obj.singleton_class.instance_methods false # => [:greet]
+puts obj.singleton_methods # => [:greet]
+puts obj.greet # => "Howdy, partner."
 
 
 # Shortcut syntax for the above
@@ -27,8 +27,8 @@ def obj.about
   "A plain old object with a few tricks."
 end
 
-obj.about # => "A plain old object with a few tricks."
-obj.singleton_methods # => [:greet, :about]
+puts obj.about # => "A plain old object with a few tricks."
+puts obj.singleton_methods # => [:greet, :about]
 
 # Question: if everything is an object, and every object
 #   has a singleton class, then do singleton classes have

@@ -1,3 +1,4 @@
+require '../../session1/3-challenge/5_string'
 RSpec.describe "add_more_ruby" do
   it 'changes sad to happy' do
     expect(add_more_ruby "The clowns were sad.").to eq "The clowns were happy."

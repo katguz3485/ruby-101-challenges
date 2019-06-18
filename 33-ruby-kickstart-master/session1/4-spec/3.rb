@@ -1,3 +1,6 @@
+
+require '../../session1/3-challenge/3_simple_logic'
+
 RSpec.describe "ten_twenty" do
   it 'returns 20 when passed 5' do
     expect(ten_twenty 5).to eq 20

@@ -1,3 +1,5 @@
+require '../../session1/3-challenge/7_string'
+
 RSpec.describe "pirates_say_arrrrrrrrr" do
   it 'returns "eeu" when given "are you really learning Ruby?"' do
     expect(pirates_say_arrrrrrrrr 'are you really learning Ruby?').to eq 'eenu'

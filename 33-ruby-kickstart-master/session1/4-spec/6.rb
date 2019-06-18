@@ -1,3 +1,5 @@
+require '../../session1/3-challenge/6_string'
+
 RSpec.describe "odds_and_evens" do
   context "when odd" do
     it 'returns "bdf" when given "abcdefg"' do

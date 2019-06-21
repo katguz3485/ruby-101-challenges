@@ -1,3 +1,4 @@
+require_relative '../../../33-ruby-kickstart-master/session2/3-challenge/12_classes'
 common_denominator_factorings = [
   [                         [5, 7, 17, 19],         [2, 2, 2, 5, 7, 7, 13, 17, 19],       [5, 7, 17, 19]],
   [                              [3, 3, 7],           [3, 5, 5, 7, 13, 19, 19, 19],               [3, 7]],

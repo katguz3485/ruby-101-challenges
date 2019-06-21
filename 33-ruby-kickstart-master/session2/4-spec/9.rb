@@ -1,3 +1,4 @@
+require_relative '../../../33-ruby-kickstart-master/session2/3-challenge/9_input_output_logic_string'
 require File.join( File.dirname(__FILE__) , 'helper' )
 
 RSpec.describe 'deaf_grandma' do

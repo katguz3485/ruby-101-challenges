@@ -1,4 +1,5 @@
 require_relative 'helper'
+require '../../../33-ruby-kickstart-master/session2/3-challenge/1_input_output'
 
 RSpec.describe 'sum_difference_product' do
   [     9 ,     2 ,

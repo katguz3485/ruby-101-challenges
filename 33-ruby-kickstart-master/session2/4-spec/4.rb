@@ -1,3 +1,4 @@
+require_relative '../../../33-ruby-kickstart-master/session2/3-challenge/4_array'
 RSpec.describe 'get_squares' do
   [ [[9],                      []],
     [[9,3],                    [3]],

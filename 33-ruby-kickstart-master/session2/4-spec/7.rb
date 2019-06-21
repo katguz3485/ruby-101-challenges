@@ -1,3 +1,5 @@
+require_relative '../../../33-ruby-kickstart-master/session2/3-challenge/7_array'
+
 # encoding: utf-8
 
 RSpec.describe 'alternate_words' do

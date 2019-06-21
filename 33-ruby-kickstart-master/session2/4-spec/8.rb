@@ -1,3 +1,5 @@
+require_relative '../../../33-ruby-kickstart-master/session2/3-challenge/8_array'
+
 RSpec.describe 'got_three?' do
   example { expect(got_three? [1, 2, 2, 2, 3]).to be }
   example { expect(got_three? ['a', 'a', 'b']).to_not be }

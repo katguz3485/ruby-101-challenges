@@ -1,3 +1,4 @@
+require_relative '../3-challenge/13_classes_iterating_sorting'
 require_relative 'helper'
 
 # make the date readable for when it gets stuck in output

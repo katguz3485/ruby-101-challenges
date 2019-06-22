@@ -1,3 +1,6 @@
+require_relative '../../../33-ruby-kickstart-master/session2/3-challenge/5_array'
+
+
 RSpec.describe 'mod_three' do
   [ [0],               [],
     [1],               [1],

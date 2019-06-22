@@ -1,3 +1,5 @@
+require_relative '../../../33-ruby-kickstart-master/session2/3-challenge/6_array'
+
 RSpec.describe 'prime_chars?' do
   # some edge cases
   specify { expect(prime_chars? []).to_not be }

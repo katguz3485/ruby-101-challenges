@@ -1,4 +1,5 @@
 require_relative 'helper'
+require_relative '../../../33-ruby-kickstart-master/session2/3-challenge/11_classes'
 
 RSpec.describe 'BeerSong' do
   def stanza(n)

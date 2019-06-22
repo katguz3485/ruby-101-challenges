@@ -1,10 +1,4 @@
-require 'rspec'
-require 'questions'
-
-RSpec.configure do |config|
-  config.color = true
-  config.formatter = :documentation
-end
+require_relative '../../34-ruby-refresher/lib/questions'
 
 describe 'the Friday test :)' do
 

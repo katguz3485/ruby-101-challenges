@@ -1,3 +1,4 @@
+require_relative '../../../33-ruby-kickstart-master/session2/3-challenge/10_classes'
 RSpec.describe 'Person' do
   let(:jim) { Person.new 'Jim' , 45 }
 

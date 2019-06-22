@@ -1,3 +1,5 @@
+require_relative '../../../33-ruby-kickstart-master/session2/3-challenge/3_array'
+
 RSpec.describe 'String#every_other_char' do
   specify '"" -> ""' do
     expect("".every_other_char).to eq ""

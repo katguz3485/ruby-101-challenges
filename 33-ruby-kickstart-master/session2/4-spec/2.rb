@@ -1,4 +1,5 @@
 require_relative 'helper'
+require_relative '../../session2/3-challenge/2_input_output_control'
 
 # This challenge is an extension of example 2, so we've included its source as a starting point
 #

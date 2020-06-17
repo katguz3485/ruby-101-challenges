@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Episodes/.idea/Episodes.iml" filepath="$PROJECT_DIR$/../Episodes/.idea/Episodes.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ruby-101-challenges.iml" filepath="$PROJECT_DIR$/.idea/ruby-101-challenges.iml" />
     </modules>
   </component>

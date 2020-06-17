@@ -2,23 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ee0569-f149-4414-8f7d-233dd159a2b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/38_best_ruby/fast-ruby/code/enumerable/concat.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/38_best_ruby/fast-ruby/code/regex_tests.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/advanced_fetch.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/clone_vs_dup.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/fetch_for_defaults.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/memoize.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/mutation_testing/lib/upcase_checker.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/mutation_testing/spec/upcase_checker_spec.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/prototype_pattern.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/send_variations.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/singleton.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/stay_positive.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/struct.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/super.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/super_in_modules.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/array_set_operations.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/concat.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/exclusive_or.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/hash_default_blocks.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/incidental_change.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/inline_rescue.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/method_and_message.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/open_struct.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/pluggable_selector.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/set.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/string_scan.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/subclassing_array.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/tempfile/book.epub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/tempfile/ch1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/tempfile/metadata.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/tempfile/metadata.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39_ruby_tapas/tempfile/tempfile.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Episodes/background-processing/ExampleApp/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../Episodes/background-processing/ExampleApp/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Episodes/background-processing/ExampleApp/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Episodes/background-processing/ExampleApp/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Episodes/background-processing/ExampleApp/dump.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Episodes/background-processing/ExampleApp/log/development.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Episodes/background-processing/ExampleApp/log/development.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ruby-101-challenges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ruby-101-challenges.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/38_best_ruby/fast-ruby/code/general/block-apply-method.rb" beforeDir="false" afterPath="$PROJECT_DIR$/38_best_ruby/fast-ruby/code/general/block-apply-method.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/38_best_ruby/fast-ruby/code/hash/bracket-vs-fetch.rb" beforeDir="false" afterPath="$PROJECT_DIR$/38_best_ruby/fast-ruby/code/hash/bracket-vs-fetch.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/38_best_ruby/fast-ruby/code/method/call-vs-send-vs-method_missing.rb" beforeDir="false" afterPath="$PROJECT_DIR$/38_best_ruby/fast-ruby/code/method/call-vs-send-vs-method_missing.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/39_ruby_tapas/struct.rb" beforeDir="false" afterPath="$PROJECT_DIR$/39_ruby_tapas/struct.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +43,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1VyfNvjz1U5wAa8ciTT4JTlAmLX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -37,116 +59,120 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/39_ruby_tapas" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.settings.patched" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/39_ruby_tapas" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/39_ruby_tapas/streaming" />
+      <recent name="$PROJECT_DIR$/39_ruby_tapas/tempfile" />
       <recent name="$PROJECT_DIR$/38_best_ruby" />
       <recent name="$PROJECT_DIR$/37-ruby_exercises" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/39_ruby_tapas" />
+    </key>
   </component>
-  <component name="RunManager" selected="Ruby.super_in_modules">
-    <configuration name="fetch_for_defaults" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+  <component name="RunManager" selected="Ruby.string_scan">
+    <configuration name="backticks" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-101-challenges" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/39_ruby_tapas" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/39_ruby_tapas/fetch_for_defaults.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/39_ruby_tapas/backticks.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="memoize" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="hash_default_blocks" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-101-challenges" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/39_ruby_tapas" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/39_ruby_tapas/memoize.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/39_ruby_tapas/hash_default_blocks.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="struct" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="open_struct" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-101-challenges" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/39_ruby_tapas" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/39_ruby_tapas/struct.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/39_ruby_tapas/open_struct.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="super" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="pubchem_compound_atributes" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-101-challenges" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/39_ruby_tapas" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/20-pub_chem_api_consumed/lib" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/39_ruby_tapas/super.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/20-pub_chem_api_consumed/lib/pubchem_compound_atributes.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
-    <configuration name="super_in_modules" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration name="string_scan" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="ruby-101-challenges" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/39_ruby_tapas" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/39_ruby_tapas/super_in_modules.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/39_ruby_tapas/string_scan.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Ruby.super_in_modules" />
-        <item itemvalue="Ruby.super" />
-        <item itemvalue="Ruby.memoize" />
-        <item itemvalue="Ruby.fetch_for_defaults" />
-        <item itemvalue="Ruby.struct" />
+        <item itemvalue="Ruby.string_scan" />
+        <item itemvalue="Ruby.hash_default_blocks" />
+        <item itemvalue="Ruby.backticks" />
+        <item itemvalue="Ruby.open_struct" />
+        <item itemvalue="Ruby.pubchem_compound_atributes" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +193,11 @@
       <workItem from="1589195891021" duration="2825000" />
       <workItem from="1589453702778" duration="771000" />
       <workItem from="1589963334606" duration="791000" />
-      <workItem from="1590499884525" duration="1522000" />
+      <workItem from="1590499884525" duration="4062000" />
+      <workItem from="1591133223871" duration="1085000" />
+      <workItem from="1591260925364" duration="10805000" />
+      <workItem from="1591553368976" duration="23901000" />
+      <workItem from="1592287706915" duration="9875000" />
     </task>
     <servers />
   </component>
@@ -175,55 +205,81 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="269" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588617761327">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="588" y="266" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592306478506">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
+    <state x="588" y="266" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.819@0.23.1440.819" timestamp="1592306478506" />
     <state x="872" y="269" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.829@0.23.1440.829" timestamp="1588617761327" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590740251326">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1590740251326" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1589195734000">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="733" height="247" key="GridCell.Tab.0.bottom" timestamp="1592299130442">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1589195734000" />
-    <state width="699" height="158" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1588625736715" />
+    <state width="1398" height="287" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591776765860" />
+    <state width="733" height="247" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1592299130442" />
+    <state width="752" height="249" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1591132965612" />
+    <state width="752" height="249" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1591096284254" />
     <state width="699" height="200" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1588669960025" />
     <state width="699" height="200" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1588675337656" />
     <state width="699" height="200" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1588679789011" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1589195733999">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="733" height="247" key="GridCell.Tab.0.center" timestamp="1592299130441">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state width="1398" height="230" key="GridCell.Tab.0.center/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1589195733999" />
-    <state width="699" height="158" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1588625736714" />
+    <state width="1398" height="287" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591776765857" />
+    <state width="733" height="247" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1592299130441" />
+    <state width="752" height="249" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1591132965611" />
+    <state width="752" height="249" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1591096284253" />
     <state width="699" height="200" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1588669960024" />
     <state width="699" height="200" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1588675337655" />
     <state width="699" height="200" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1588679789009" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1589195733998">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="733" height="247" key="GridCell.Tab.0.left" timestamp="1592299130441">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state width="1398" height="230" key="GridCell.Tab.0.left/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1589195733998" />
-    <state width="699" height="158" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1588625736713" />
+    <state width="1398" height="287" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591776765855" />
+    <state width="733" height="247" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1592299130441" />
+    <state width="752" height="249" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1591132965610" />
+    <state width="752" height="249" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1591096284252" />
     <state width="699" height="200" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1588669960023" />
     <state width="699" height="200" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1588675337654" />
     <state width="699" height="200" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1588679789008" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1589195734000">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="733" height="247" key="GridCell.Tab.0.right" timestamp="1592299130442">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.0.1440.900/-249.-1080.1920.1080@0.0.1440.900" timestamp="1589195734000" />
-    <state width="699" height="158" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1588625736714" />
+    <state width="1398" height="287" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591776765859" />
+    <state width="733" height="247" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1592299130442" />
+    <state width="752" height="249" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1591132965611" />
+    <state width="752" height="249" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1591096284254" />
     <state width="699" height="200" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1588669960024" />
     <state width="699" height="200" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1588675337655" />
     <state width="699" height="200" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1588679789010" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1591699927552">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1591699927552" />
+    <state x="6" y="23" width="762" height="819" key="com.intellij.database.run.actions.ShowCsvFormatsAction" timestamp="1592305801397">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="6" y="23" width="762" height="819" key="com.intellij.database.run.actions.ShowCsvFormatsAction/0.23.1440.819@0.23.1440.819" timestamp="1592305801397" />
     <state x="658" y="64" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1588610743095">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
     <state x="658" y="64" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.828@0.23.1440.828" timestamp="1588610743095" />
-    <state x="264" y="-845" width="894" height="812" key="search.everywhere.popup" timestamp="1589374243318">
-      <screen x="-249" y="-1080" width="1920" height="1080" />
+    <state x="52" y="196" key="run.anything.popup" timestamp="1592305814504">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="52" y="196" key="run.anything.popup/0.23.1440.819@0.23.1440.819" timestamp="1592305814504" />
+    <state x="385" y="201" width="671" height="616" key="search.everywhere.popup" timestamp="1592306564591">
+      <screen x="0" y="23" width="1440" height="819" />
     </state>
     <state x="264" y="-845" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/-249.-1080.1920.1080@-249.-1080.1920.1080" timestamp="1589374243318" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1589216226723" />
+    <state x="385" y="201" width="671" height="616" key="search.everywhere.popup/0.23.1440.819@0.23.1440.819" timestamp="1592306564591" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -236,31 +292,99 @@
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/39_ruby_tapas/struct.rb</url>
+          <line>19</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/39_ruby_tapas/inline_rescue.rb</url>
+          <line>19</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/39_ruby_tapas/hash_default_blocks.rb</url>
+          <line>5</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/39_ruby_tapas/hash_default_blocks.rb</url>
+          <line>20</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/39_ruby_tapas/string_scan.rb</url>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/39_ruby_tapas/streaming/streaming.rb</url>
+          <line>11</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/39_ruby_tapas/streaming/streaming.rb</url>
+          <line>9</line>
+          <properties myBlockOrdinal="-1">
+            <option name="block-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@set.rcov" NAME="set Coverage Results" MODIFIED="1591776315762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@concat.rcov" NAME="concat Coverage Results" MODIFIED="1591700678685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@10_little_monkeys.rcov" NAME="10_little_monkeys Coverage Results" MODIFIED="1578829472455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_7" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@clone_vs_dup.rcov" NAME="clone_vs_dup Coverage Results" MODIFIED="1588616178407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@super.rcov" NAME="super Coverage Results" MODIFIED="1588671005734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@burrito.rcov" NAME="burrito Coverage Results" MODIFIED="1578584174523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_6/exercises" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@hashes.rcov" NAME="hashes Coverage Results" MODIFIED="1578582746701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_5/exercises" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@variables.rcov" NAME="variables Coverage Results" MODIFIED="1578232544670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_1/exercises" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@person.rcov" NAME="person Coverage Results" MODIFIED="1578600566035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_6/exercises" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@interpolation.rcov" NAME="interpolation Coverage Results" MODIFIED="1578231804009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_1/exercises" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@fetch_for_defaults.rcov" NAME="fetch_for_defaults Coverage Results" MODIFIED="1588623619261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@arrays.rcov" NAME="arrays Coverage Results" MODIFIED="1578233372490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_2/exercises" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@tempfile.rcov" NAME="tempfile Coverage Results" MODIFIED="1591551665420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas/tempfile" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@dog.rcov" NAME="dog Coverage Results" MODIFIED="1578584320196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_6/exercises" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@concat__1_.rcov" NAME="concat (1) Coverage Results" MODIFIED="1591700829641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/38_best_ruby/fast-ruby/code/enumerable" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@methods.rcov" NAME="methods Coverage Results" MODIFIED="1578253349172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_4/exercises" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@prototype_pattern.rcov" NAME="prototype_pattern Coverage Results" MODIFIED="1588619784335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@loops.rcov" NAME="loops Coverage Results" MODIFIED="1578231851492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_1/exercises" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@strings.rcov" NAME="strings Coverage Results" MODIFIED="1578232085564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_1/exercises" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@super_in_modules.rcov" NAME="super_in_modules Coverage Results" MODIFIED="1589107234923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@struct.rcov" NAME="struct Coverage Results" MODIFIED="1588622699715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@pubchem_compound_atributes.rcov" NAME="pubchem_compound_atributes Coverage Results" MODIFIED="1591786357017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/20-pub_chem_api_consumed/lib" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@ceasar_cipher.rcov" NAME="ceasar_cipher Coverage Results" MODIFIED="1578831190476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_7" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@iteration.rcov" NAME="iteration Coverage Results" MODIFIED="1578233954144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_2/exercises" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@numbers.rcov" NAME="numbers Coverage Results" MODIFIED="1578232035030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_1/exercises" MODULE_NAME="ruby-101-challenges" />
-    <SUITE FILE_PATH="coverage/ruby_101_challenges@if_statements.rcov" NAME="if_statements Coverage Results" MODIFIED="1578253003326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_3/exercises" MODULE_NAME="ruby-101-challenges" />
     <SUITE FILE_PATH="coverage/ruby_101_challenges@memoize.rcov" NAME="memoize Coverage Results" MODIFIED="1588625736676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@subclassing_array.rcov" NAME="subclassing_array Coverage Results" MODIFIED="1591095755630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@clone_vs_dup.rcov" NAME="clone_vs_dup Coverage Results" MODIFIED="1588616178407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@burrito.rcov" NAME="burrito Coverage Results" MODIFIED="1578584174523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_6/exercises" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@variables.rcov" NAME="variables Coverage Results" MODIFIED="1578232544670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_1/exercises" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@person.rcov" NAME="person Coverage Results" MODIFIED="1578600566035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_6/exercises" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@interpolation.rcov" NAME="interpolation Coverage Results" MODIFIED="1578231804009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_1/exercises" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@arrays.rcov" NAME="arrays Coverage Results" MODIFIED="1578233372490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_2/exercises" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@string_scan.rcov" NAME="string_scan Coverage Results" MODIFIED="1592299102385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@strings.rcov" NAME="strings Coverage Results" MODIFIED="1578232085564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_1/exercises" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@pluggable_selector.rcov" NAME="pluggable_selector Coverage Results" MODIFIED="1591472255511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@backticks.rcov" NAME="backticks Coverage Results" MODIFIED="1591797340121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@open_struct.rcov" NAME="open_struct Coverage Results" MODIFIED="1591790577885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@struct.rcov" NAME="struct Coverage Results" MODIFIED="1591544558236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@hash_default_blocks.rcov" NAME="hash_default_blocks Coverage Results" MODIFIED="1591806918150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@method_and_message.rcov" NAME="method_and_message Coverage Results" MODIFIED="1591470615304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@if_statements.rcov" NAME="if_statements Coverage Results" MODIFIED="1578253003326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/37-ruby_exercises/backend_module_0_capstone-master/day_3/exercises" MODULE_NAME="ruby-101-challenges" />
+    <SUITE FILE_PATH="coverage/ruby_101_challenges@inline_rescue.rcov" NAME="inline_rescue Coverage Results" MODIFIED="1591550762200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/39_ruby_tapas" MODULE_NAME="ruby-101-challenges" />
   </component>
 </project>

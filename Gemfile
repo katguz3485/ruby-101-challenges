@@ -20,6 +20,8 @@ gem 'pry'
 gem 'pry-rails'
 gem 'rubocop', '~> 0.64.0', require: false
 gem 'json'
+gem 'moneta'
+gem 'netrc'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
